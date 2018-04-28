@@ -1,7 +1,7 @@
 {
-  "name": "sketch-polyfill-fetch",
-  "version": "0.3.3",
-  "description": "A fetch polyfill for sketch",
+  "name": "sketch-fetch-complete",
+  "version": "0.0.2",
+  "description": "A fetch for sketch",
   "main": "lib/index.js",
   "dependencies": {
     "cocoascript-class": "^0.1.2"
@@ -14,17 +14,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/skpm/sketch-polyfill-fetch.git"
+    "url": "git+https://github.com/zhzxang/sketch-fetch-complete.git"
   },
   "keywords": [
     "sketch",
-    "fetch",
-    "polyfill"
+    "fetch"
   ],
-  "author": "Mathieu Dutour <mathieu@dutour.me> (http://mathieu.dutour.me/)",
+  "author": "zhzxang",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/skpm/sketch-polyfill-fetch/issues"
+    "url": "https://github.com/zhzxang/sketch-fetch-complete/issues"
   },
-  "homepage": "https://github.com/skpm/sketch-polyfill-fetch#readme"
+  "homepage": "https://github.com/zhzxang/sketch-fetch-complete/issues#readme"
 }
