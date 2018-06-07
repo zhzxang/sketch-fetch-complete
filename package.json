@@ -1,6 +1,6 @@
 {
   "name": "sketch-fetch-complete",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A fetch for sketch",
   "main": "lib/index.js",
   "dependencies": {
