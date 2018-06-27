@@ -26,11 +26,14 @@ upload file
 ```js
 const fetch = require('sketch-fetch-complete')
 
-fetch("https://google.com",{
+fetch("https://google.com", {
   method: 'post',
-  formdata: path
+  formdata: {
+    files: [path],
+    ...objects,
+  }
 })
-  .then(response => response.text())
+  .then(response => response.json())
   .then(text => console.log(text))
   .catch(e => console.error(e))
 ```
